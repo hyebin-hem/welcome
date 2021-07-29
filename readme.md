@@ -66,41 +66,38 @@
 
  `qiime_ver = '21.2', myLAB= True` Full pipeline (from fastq to csv) output
 
-폴더는 Bold, 생성된 output은 파란색으로 표기
+생성된 output은 Bold 표기
 
 <details>
-<summary>workdir</summary>
-    <details>
-    <summary>seqfolder (ex.HEM######) </summary>
-        sample1_R1_001.fastq.qz
-        sample1_R2_001.fastq.qz
-        ......
-        metadata.txt
-        manifest.txt
-        rep-seqs.qza
-        table.qza
-        .......
-    </details>
-    <details>
-    <summary>csvfiles (final output file : 11) </summary>
-        level1~7.csv
-        shannon.csv
-        sequences.csv
-        feature-table.csv
-        taxonomy-silva138_v0.02.csv
-    </details>
-    <details>
-    <summary>myLAB</summary>
-        filtered-rep-seqs.qza
-        filtered-table.qza
-        taxa-bar-plot-silva138_v0.02.qza
-    ........
-    <details>
-    <summary>csvfiles</summary>
-        level-1~7.csv (feature filtered)
-        shannon.csv (copied)
-        taxonomy-silva138_v0.02.csv (feature filtered)
-    </details>
-    - silva138v0.02_classifier21.2.qza
-    - asv_list.txt
+<summary>:open_file_folder: 자세히 보기</summary>
+<p class='callout'>
+
+:open_file_folder: workdir\
+    - silva138v0.02_classifier21.2.qza\
+    - asv_list.txt\
+    :open_file_folder: seqfolder (ex.HEM######)\
+        sample1_R1_001.fastq.qz\
+        sample1_R2_001.fastq.qz\
+        ......\
+        **metadata.txt\
+        manifest.txt\
+        rep-seqs.qza\
+        table.qza\
+        .......** \
+    :open_file_folder: **csvfiles (final output file : 11)**\
+        **level1~7.csv\
+        shannon.csv\
+        sequences.csv\
+        feature-table.csv\
+        taxonomy-silva138_v0.02.csv**\
+    :open_file_folder: **myLAB**
+        **filtered-rep-seqs.qza\
+        filtered-table.qza\
+        taxa-bar-plot-silva138_v0.02.qza\
+        ........**\
+        :open_file_folder: **csvfiles\
+        level-1~7.csv (feature filtered)\
+        shannon.csv (copied)\
+        taxonomy-silva138_v0.02.csv (feature filtered)**
+</p>
 </details>

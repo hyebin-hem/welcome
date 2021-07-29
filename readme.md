@@ -72,36 +72,37 @@
 <summary>자세히 보기</summary>
 :open_file_folder: workdir
 
-    - silva138v0.02_classifier21.2.qza
-    - asv_list.txt
-    :open_file_folder: seqfolder (ex.HEM######)\
+- silva138v0.02_classifier21.2.qza
+- asv_list.txt
+- :open_file_folder: seqfolder (ex.HEM######)
 
-        sample1_R1_001.fastq.qz\
-        sample1_R2_001.fastq.qz\
-        ......\
-        **metadata.txt\
-        manifest.txt\
-        rep-seqs.qza\
-        table.qza\
-        .......** \
+    - sample1_R1_001.fastq.qz
+    - sample1_R2_001.fastq.qz
+    - ......
+    - **metadata.txt**
+    - **manifest.txt**
+    - **rep-seqs.qza**
+    - **table.qza**
+    - **.......**
 
-        :open_file_folder: **csvfiles (final output file : 11)**\
-        **level1~7.csv\
-        shannon.csv\
-        sequences.csv\
-        feature-table.csv\
-        taxonomy-silva138_v0.02.csv**\
+- :open_file_folder: **csvfiles (final output file : 11)**
 
-    :open_file_folder: **myLAB**
+    - **level1~7.csv**
+    - **shannon.csv**
+    - **sequences.csv**
+    - **feature-table.csv**
+    - **taxonomy-silva138_v0.02.csv**
 
-        **filtered-rep-seqs.qza\
-        filtered-table.qza\
-        taxa-bar-plot-silva138_v0.02.qza\
-        ........**\
+- :open_file_folder: **myLAB**
 
-        :open_file_folder: **csvfiles\
-        level-1~7.csv (feature filtered)\
-        shannon.csv (copied)\
-        taxonomy-silva138_v0.02.csv (feature filtered)**
+    - **filtered-rep-seqs.qza**
+    - **filtered-table.qza**
+    - **taxa-bar-plot-silva138_v0.02.qza**
+    - **........**
 
+    - :open_file_folder: **csvfiles**
+
+        - **level-1~7.csv (feature filtered)**
+        - **shannon.csv (copied)**
+        - **taxonomy-silva138_v0.02.csv (feature filtered)**
 </details>

@@ -99,7 +99,6 @@
     - **filtered-table.qza**
     - **taxa-bar-plot-silva138_v0.02.qza**
     - **........**
-
     - :open_file_folder: **csvfiles**
 
         - **level-1~7.csv (feature filtered)**
